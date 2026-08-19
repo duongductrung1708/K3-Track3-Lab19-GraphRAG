@@ -1,0 +1,2069 @@
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)
+
+  account   : Koonee
+  token role: fineGrained  global_scopes=['discussion.write', 'post.write']
+✗ CHƯA CÓ QUYỀN (403). Phải làm ĐỦ CẢ 2 việc — thiếu 1 việc là vẫn 403:
+
+  [1] NHẬN GATE (bắt buộc, không có cách nào bỏ qua)
+      Mở https://huggingface.co/datasets/HackerNoon/tech-company-news-data-dump
+      Đăng nhập đúng account 'Koonee' -> bấm nút 'Agree and access repository' ngay đầu trang.
+      Dataset này gated=auto nên được duyệt TỨC THÌ, không phải chờ chủ repo.
+
+  [2] TOKEN ĐỌC ĐƯỢC GATED REPO
+      Token hiện tại là fineGrained, scope = ['discussion.write', 'post.write'] -> KHÔNG có quyền đọc gated repo.
+      ('discussion.write' / 'post.write' là quyền bình luận, KHÔNG liên quan.)
+
+      → CÁCH DỄ NHẤT: https://huggingface.co/settings/tokens -> 'Create new token'
+        -> chọn Token type = **Read** (không phải Fine-grained) -> Create.
+        Token 'Read' tự động đọc được mọi gated repo mà bạn đã Agree.
+
+      → Nếu vẫn muốn dùng Fine-grained: sửa token, kéo xuống mục 'Repos'
+        và tick 'Read access to contents of all public gated repos you can access'.
+
+      Xong thì dán token mới vào .env:  HF_TOKEN=hf_xxx
+  ...chờ 15s rồi thử lại (Ctrl+C để dừng)

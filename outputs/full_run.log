@@ -1,0 +1,79 @@
+E:\WED\K3-Track3-Lab19-GraphRAG\.venv\Lib\site-packages\zmq\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.
+  self._get_loop()
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+Notebook: Day19_GraphRAG_vs_FlatRAG_Production_Lab_Guide.ipynb  (37 cell, 22 code cell)
+[    2.7s] ▶ cell 003  1.1 — Install (chỉ cài package còn thiếu)
+[    2.7s] ✓ cell 003 (0.0s)
+[    2.7s] ▶ cell 004  1.2 — Imports & config
+[   25.4s] ✓ cell 004 (22.7s)
+[   25.4s] ▶ cell 006  1.3 — Stream HackerNoon dataset -> CSV
+[   25.6s] ✓ cell 006 (0.2s)
+[   25.6s] ▶ cell 007  1.4 — Neo4j connection + schema
+[   25.9s] ✓ cell 007 (0.3s)
+[   25.9s] ▶ cell 008  1.5 — Loader + exact dedup + chunking
+[   26.7s] ✓ cell 008 (0.8s)
+[   26.7s] ▶ cell 010  1.6 — LLM wrapper có retry + JSON parsing
+[   27.3s] ✓ cell 010 (0.6s)
+[   27.3s] ▶ cell 012  1.7 — Coreference resolution theo batch
+[ 1016.6s] ✓ cell 012 (989.3s)
+[ 1016.6s] ▶ cell 014  2.1 — NER + RE extraction
+[ 2108.0s] ✓ cell 014 (1091.4s)
+[ 2108.0s] ▶ cell 016  2.2 — Entity resolution
+[ 2115.4s] ✓ cell 016 (7.3s)
+[ 2115.4s] ▶ cell 017  2.3 — Node table + UNWIND bulk insert
+[ 2127.7s] ✓ cell 017 (12.4s)
+[ 2127.8s] ▶ cell 018  2.4 — Sanity checks
+[ 2129.2s] ✓ cell 018 (1.4s)
+[ 2129.2s] ▶ cell 020  3.1 — Flat RAG
+[ 2165.3s] ✓ cell 020 (36.2s)
+[ 2165.4s] ▶ cell 022  3.2 — Seed matching
+[ 2165.9s] ✓ cell 022 (0.5s)
+[ 2165.9s] ▶ cell 023  3.3 — Graph traversal + super-node mitigation
+[ 2165.9s] ✓ cell 023 (0.0s)
+[ 2166.0s] ▶ cell 024  3.4 — Flat answer vs Hybrid GraphRAG answer
+[ 2166.0s] ✓ cell 024 (0.0s)
+[ 2166.0s] ▶ cell 026  4.1 — 5 câu Golden starter
+[ 2166.1s] ✓ cell 026 (0.1s)
+[ 2166.1s] ▶ cell 027  4.2 — LLM-as-a-Judge
+[ 2166.1s] ✓ cell 027 (0.0s)
+[ 2166.1s] ▶ cell 028  4.3 — Evaluation runner + checkpoint
+[ 2175.8s] ✗ RuntimeError cell 028 (9.7s)
+
+✗ DỪNG vì cell lỗi:
+, desc=[33m"Evaluation"[39m):
+[32m     17[39m         [38;5;28;01mif[39;00m str(q.id) [38;5;28;01min[39;00m done:
+[32m     18[39m             [38;5;28;01mcontinue[39;00m
+[32m---> [39m[32m19[39m         flat = answer_flat_rag(q.question)
+[32m     20[39m         graph = answer_graph_rag(q.question)
+[32m     21[39m 
+[32m     22[39m         jf = judge_answer(q.question, q.reference_answer, flat[[33m"answer"[39m], flat[[33m"context"[39m])
+
+[36mCell[39m[36m [39m[32mIn[15][39m[32m, line 25[39m, in [36manswer_flat_rag[39m[34m(question)[39m
+[32m     23[39m [38;5;28;01mdef[39;00m answer_flat_rag(question):
+[32m     24[39m     context, retrieved = retrieve_flat_context(question, k=[32m6[39m)
+[32m---> [39m[32m25[39m     out = generate_answer(question, context)
+[32m     26[39m     out.update({[33m"context"[39m:context,[33m"retrieved"[39m:retrieved})
+[32m     27[39m     [38;5;28;01mreturn[39;00m out
+
+[36mCell[39m[36m [39m[32mIn[15][39m[32m, line 12[39m, in [36mgenerate_answer[39m[34m(question, context)[39m
+[32m      9[39m [38;5;28;01mdef[39;00m generate_answer(question, context):
+[32m     10[39m     prompt = f"QUESTION:\n{question}\n\nCONTEXT:\n{context}\n\nANSWER:"
+[32m     11[39m     t0 = time.perf_counter()
+[32m---> [39m[32m12[39m     text, usage = groq_chat(
+[32m     13[39m         [{"role":"system","content":ANSWER_SYSTEM},
+[32m     14[39m          {[33m"role"[39m:[33m"user"[39m,[33m"content"[39m:prompt}],
+[32m     15[39m         model=GROQ_MODEL
+
+[36mCell[39m[36m [39m[32mIn[6][39m[32m, line 46[39m, in [36mgroq_chat[39m[34m(messages, model, json_mode, max_retries)[39m
+[32m     42[39m             last = e
+[32m     43[39m             [38;5;28;01mif[39;00m attempt == max_retries - [32m1[39m:
+[32m     44[39m                 [38;5;28;01mbreak[39;00m
+[32m     45[39m             time.sleep(min([32m20[39m, [32m2[39m**attempt + random.random()))
+[32m---> [39m[32m46[39m     [38;5;28;01mraise[39;00m RuntimeError(last)
+
+[31mRuntimeError[39m: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kyw7pmjnfzasmmffmswzsefj` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199740, Requested 1386. Please try again in 8m6.431999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+
+Tổng 2178.5s | cell có output: 12/22
+Notebook đã lưu: E:\WED\K3-Track3-Lab19-GraphRAG\Day19_GraphRAG_vs_FlatRAG_Production_Lab_Guide.ipynb
+Log: E:\WED\K3-Track3-Lab19-GraphRAG\outputs\run_notebook.log

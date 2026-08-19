@@ -1,0 +1,36 @@
+[    2.7s] ▶ cell 003  1.1 — Install (chỉ cài package còn thiếu)
+[    2.7s] ✓ cell 003 (0.0s)
+[    2.7s] ▶ cell 004  1.2 — Imports & config
+[   25.4s] ✓ cell 004 (22.7s)
+[   25.4s] ▶ cell 006  1.3 — Stream HackerNoon dataset -> CSV
+[   25.6s] ✓ cell 006 (0.2s)
+[   25.6s] ▶ cell 007  1.4 — Neo4j connection + schema
+[   25.9s] ✓ cell 007 (0.3s)
+[   25.9s] ▶ cell 008  1.5 — Loader + exact dedup + chunking
+[   26.7s] ✓ cell 008 (0.8s)
+[   26.7s] ▶ cell 010  1.6 — LLM wrapper có retry + JSON parsing
+[   27.3s] ✓ cell 010 (0.6s)
+[   27.3s] ▶ cell 012  1.7 — Coreference resolution theo batch
+[ 1016.6s] ✓ cell 012 (989.3s)
+[ 1016.6s] ▶ cell 014  2.1 — NER + RE extraction
+[ 2108.0s] ✓ cell 014 (1091.4s)
+[ 2108.0s] ▶ cell 016  2.2 — Entity resolution
+[ 2115.4s] ✓ cell 016 (7.3s)
+[ 2115.4s] ▶ cell 017  2.3 — Node table + UNWIND bulk insert
+[ 2127.7s] ✓ cell 017 (12.4s)
+[ 2127.8s] ▶ cell 018  2.4 — Sanity checks
+[ 2129.2s] ✓ cell 018 (1.4s)
+[ 2129.2s] ▶ cell 020  3.1 — Flat RAG
+[ 2165.3s] ✓ cell 020 (36.2s)
+[ 2165.4s] ▶ cell 022  3.2 — Seed matching
+[ 2165.9s] ✓ cell 022 (0.5s)
+[ 2165.9s] ▶ cell 023  3.3 — Graph traversal + super-node mitigation
+[ 2165.9s] ✓ cell 023 (0.0s)
+[ 2166.0s] ▶ cell 024  3.4 — Flat answer vs Hybrid GraphRAG answer
+[ 2166.0s] ✓ cell 024 (0.0s)
+[ 2166.0s] ▶ cell 026  4.1 — 5 câu Golden starter
+[ 2166.1s] ✓ cell 026 (0.1s)
+[ 2166.1s] ▶ cell 027  4.2 — LLM-as-a-Judge
+[ 2166.1s] ✓ cell 027 (0.0s)
+[ 2166.1s] ▶ cell 028  4.3 — Evaluation runner + checkpoint
+[ 2175.8s] ✗ RuntimeError cell 028 (9.7s)

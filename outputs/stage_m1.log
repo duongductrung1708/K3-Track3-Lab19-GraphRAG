@@ -1,0 +1,63 @@
+E:\WED\K3-Track3-Lab19-GraphRAG\.venv\Lib\site-packages\zmq\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.
+  self._get_loop()
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+Notebook: Day19_GraphRAG_vs_FlatRAG_Production_Lab_Guide.ipynb  (37 cell, 22 code cell)
+Chỉ chạy từ cell 8 (giữ nguyên output cell trước đó).
+Dừng sau cell 8.
+[    3.7s] ▶ cell 008  1.5 — Loader + exact dedup + chunking
+[    4.1s] ✗ NameError cell 008 (0.4s)
+
+✗ DỪNG vì cell lỗi:
+qdm(news_df.itertuples(index=False), total=len(news_df), desc="Chunking"):
+        for i, text in enumerate(chunk_text(r.text, CHUNK_WORDS, CHUNK_OVERLAP_WORDS)):
+            rows.append({
+                "chunk_id": f"{r.article_id}::c{i:04d}",
+                "article_id": r.article_id,
+                "source_row": int(r.source_row),
+                "title": r.title,
+                "published_date": r.published_date,
+                "text": text,
+            })
+            if LAB_MAX_CHUNKS and len(rows) >= LAB_MAX_CHUNKS:
+                print(f"⚠️  Đạt LAB_MAX_CHUNKS={LAB_MAX_CHUNKS}, dừng chunking sớm.")
+                return pd.DataFrame(rows)
+    return pd.DataFrame(rows)
+
+
+raw_df = load_news(DATA_PATH)
+news_df = standardize_news(raw_df)
+chunks_df = build_chunks(news_df)
+print(f"news_df={len(news_df):,} article | chunks_df={len(chunks_df):,} chunk")
+display(chunks_df.head())
+
+------------------
+
+
+[31m---------------------------------------------------------------------------[39m
+[31mNameError[39m                                 Traceback (most recent call last)
+[36mCell[39m[36m [39m[32mIn[1][39m[32m, line 39[39m
+[32m     35[39m     print(f"Golden evidence: {len(rows)} article (row {min(rows)}..{max(rows)})" [38;5;28;01mif[39;00m rows [38;5;28;01melse[39;00m [33m"Golden evidence: 0"[39m)
+[32m     36[39m     [38;5;28;01mreturn[39;00m rows
+[32m     37[39m 
+[32m     38[39m 
+[32m---> [39m[32m39[39m GOLDEN_EVIDENCE_ROWS = load_golden_evidence_rows()
+[32m     40[39m 
+[32m     41[39m 
+[32m     42[39m [38;5;28;01mdef[39;00m load_news(path):
+
+[36mCell[39m[36m [39m[32mIn[1][39m[32m, line 25[39m, in [36mload_golden_evidence_rows[39m[34m()[39m
+[32m     21[39m     Vì sao cần: golden dataset trải trên row [32m33.[39m[32m.4997[39m nhưng LAB_MAX_ARTICLES=[32m1500.[39m
+[32m     22[39m     Nếu sample ngẫu nhiên như bản gốc thì chỉ [32m19[39m/[32m51[39m article evidence trụ lại
+[32m     23[39m     => phần lớn câu hỏi thành không-thể-trả-lời và phép so sánh mất ý nghĩa.
+[32m     24[39m     """
+[32m---> [39m[32m25[39m     [38;5;28;01mif[39;00m [38;5;28;01mnot[39;00m GOLDEN_DETAILED_PATH.exists():
+[32m     26[39m         print(f"⚠️  Không thấy {GOLDEN_DETAILED_PATH.name} — sẽ sample ngẫu nhiên như bản gốc.")
+[32m     27[39m         [38;5;28;01mreturn[39;00m set()
+[32m     28[39m     d = pd.read_csv(GOLDEN_DETAILED_PATH)
+
+[31mNameError[39m: name 'GOLDEN_DETAILED_PATH' is not defined
+
+
+Tổng 4.8s | cell có output: 1/22
+Notebook đã lưu: E:\WED\K3-Track3-Lab19-GraphRAG\Day19_GraphRAG_vs_FlatRAG_Production_Lab_Guide.ipynb
+Log: E:\WED\K3-Track3-Lab19-GraphRAG\outputs\run_notebook.log

@@ -17,12 +17,25 @@ venv/
 .venv/
 env/
 
-# Large Datasets and data dumps (do not commit 300MB data dumps)
-golden_dataset.csv
-!reports/*.csv
+# Raw data dump từ Hugging Face (sinh lại được bằng cell 1.3, không commit)
+data/hackernoon_subset.csv
 *.jsonl
 *.parquet
 *.pq
+
+# Scratch/log khi debug local
+nb_dump.txt
+pip_install.log
+
+# LƯU Ý: KHÔNG ignore *.csv nữa.
+# Deliverable bắt buộc phải được commit:
+#   data/graphrag_golden_50_first5000*.csv   (golden dataset)
+#   outputs/graphrag_eval_results.csv        (D2)
+#   outputs/graphrag_vs_flatrag_summary.csv  (D3)
+#   reports/*.csv                            (bản sao theo RUBRIC 3.3)
+# Bản gốc có `*.csv` + `golden_dataset.csv` nên 2 file nộp bị git bỏ qua -> mất khi push.
+# Checkpoint eval là file tạm, không cần nộp:
+outputs/graphrag_eval_checkpoint.csv
 
 # OS files
 .DS_Store
